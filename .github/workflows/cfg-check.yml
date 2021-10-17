@@ -21,7 +21,7 @@ jobs:
       - name: npm install
         run: |
           npm install -g pxt
-          pxt target microbit
+          pxt target adafruit
       - name: Checkout current state
         run: |
           git checkout -- .
